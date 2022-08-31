@@ -638,6 +638,10 @@ video {
   margin-top: -3.5rem;
 }
 
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -985,6 +989,47 @@ body {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+.swiper {
+  width: 90%;
+  height: 300px;
+}
+
+@media (max-width: 576px) {
+  .no-swipper {
+    display: none;
+  }
+}
+
+@media(min-width: 576px) {
+  .swipper {
+    display: none;
+  }
+}
+
+.no-swiper-pagination {
+  display: none;
+}
+
+/* 768 */
+
+/* @media (min-width: 576px) {
+    .swiper {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        display: none;
+    }
+
+    .swiper-slide {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+} */
 
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
